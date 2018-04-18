@@ -1,0 +1,64 @@
+body {
+  background-color: #454445;
+  color: #fff;
+  font-family: Apercu,sans-serif; }
+
+.navbar {
+  border-bottom: #009494 3px solid; }
+
+#main-landing-page {
+  height: 500px;
+  background: url(../images/kansas-city.jpg) no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #1e2122;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+.carousel-caption {
+  color: #009494; }
+
+.carousel-item {
+  height: 500px; }
+
+.carousel-image-1 {
+  background: url("../images/kansas-city2.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../images/paris.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../images/spain.jpg");
+  background-size: cover; }
+
+#home-heading {
+  position: relative;
+  min-height: 400px;
+  background-color: #fff;
+  color: #454445; }
+
+.fa {
+  font-size: 55px; }
+
+#info {
+  background-color: #fff;
+  color: #454445; }
+
+footer#main-footer {
+  background: #000;
+  color: #fff; }
+
+#page-header {
+  height: 200px;
+  background: url(../images/blueprint.jpg);
+  background-position: 0 -360;
+  background-attachment: fixed;
+  color: #1e2122;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+#about img {
+  margin-top: -50px; }

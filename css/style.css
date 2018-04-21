@@ -7,14 +7,17 @@ body {
   border-bottom: #009494 3px solid; }
 
 #main-landing-page {
-  height: 500px;
-  background: url(../images/kansas-city.jpg) no-repeat;
-  background-size: 100%;
+  height: 450px;
+  background: url(../images/skyline3.jpg) no-repeat;
+  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   color: #1e2122;
-  border-bottom: 1px #eee solid;
-  padding-top: 50px; }
+  border-bottom: 1px #eee solid; }
+
+.main-landing-text {
+  position: absolute;
+  padding-top: 350px; }
 
 .carousel-caption {
   color: #009494; }

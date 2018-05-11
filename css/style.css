@@ -7,35 +7,22 @@ body {
   border-bottom: #009494 3px solid; }
 
 #main-landing-page {
-  height: 450px;
-  background: url(../images/skyline3.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
   color: #1e2122;
-  border-bottom: 1px #eee solid; }
+  border-bottom: 1px #eee solid;
+  position: relative; }
 
-.main-landing-text {
+.main-landing-image {
+  width: 100%;
+  background-size: cover; }
+
+.main-text-block {
   position: absolute;
-  padding-top: 350px; }
-
-.carousel-caption {
-  color: #009494; }
-
-.carousel-item {
-  height: 500px; }
-
-.carousel-image-1 {
-  background: url("../images/kansas-city2.jpg");
-  background-size: cover; }
-
-.carousel-image-2 {
-  background: url("../images/paris.jpg");
-  background-size: cover; }
-
-.carousel-image-3 {
-  background: url("../images/spain.jpg");
-  background-size: cover; }
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background-color: rgba(82, 15, 15, 0.315);
+  padding-left: 20px;
+  padding-top: 20px; }
 
 #home-heading {
   position: relative;
@@ -44,6 +31,9 @@ body {
   color: #454445; }
 
 .fa {
+  font-size: 55px; }
+
+.fas {
   font-size: 55px; }
 
 #info {
@@ -63,5 +53,24 @@ footer#main-footer {
   border-bottom: 1px #eee solid;
   padding-top: 50px; }
 
+.header-text {
+  color: #fff;
+  background-color: rgba(8, 1, 1, 0.315);
+  padding-left: 10px;
+  padding-top: 10px; }
+
 #about img {
   margin-top: -50px; }
+
+#services {
+  color: #1e2122;
+  background-color: #fff; }
+
+.card-bg {
+  color: #fff; }
+
+#contact-page {
+  background-color: #fff; }
+
+#contact {
+  color: #000; }

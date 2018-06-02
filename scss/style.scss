@@ -4,10 +4,19 @@ $font-color: #fff;
 $primary-color:#009494;
 $icon-size:55px;
 
+html, body{
+    height: 100%;
+}
+* html .wrapper {
+    height: 100%;
+}
+
 body{
     background-color: $bg-color;
     color: $font-color;
     font-family: Apercu,sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar{
@@ -26,18 +35,18 @@ body{
 
 .main-heading-block{
     position: absolute;
-    top:20px;
+    top:25px;
     left: 60px;
     color: #fff;
 }
 .main-text-block{
     position: absolute;
-    width: 550px;
-    bottom: 10px;
+    width: 700px;
+    bottom: 20px;
     right: 40px;
     color: #fff;
     background-color: rgba(82, 15, 15, 0.315);
-    padding: 20px;
+    padding: 10px;
 }
 
 #home-heading{
@@ -60,9 +69,15 @@ body{
     color:#454445;
 }
 
-footer#main-footer{
+#main-footer{
     background:#000;
     color: #fff;
+}
+
+.wrapper{
+    min-height: -webkit-calc(100% - 100px);     /* Chrome */
+    min-height: -moz-calc(100% - 100px);     /* Firefox */
+    min-height: calc(100% - 100px);     /* native */
 }
 
 #page-header{
@@ -100,4 +115,10 @@ footer#main-footer{
 }
 #contact{
     color: #000;
+}
+
+/* change text color make change in the first p of the main landing page.*/
+
+.test-text{
+    color: #1e2122;
 }
